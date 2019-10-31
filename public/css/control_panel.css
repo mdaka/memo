@@ -1,0 +1,86 @@
+html{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-color:#607D8B;
+    margin:0px;
+    
+}
+#settingBodyElmId {
+    background-color:#455A64;
+}
+
+#headerNameElmId{
+    width: 70%;
+    max-width:70%;
+    display: inline-block;
+    text-align: center;
+    color:white;
+}
+
+#onOffElmId{
+    width:98px;
+    
+    background-color:green;
+    color:white;
+    
+    border:0;
+    border-radius:20px;
+    
+    
+    padding-right:10px;
+    padding-left:10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin:10px auto;
+
+    text-align:center;
+    font-size:25px;
+    font-family:Arial;
+}
+
+#chosenPeriodMinutesElmId {
+    width: 120px;
+    text-align: center;
+    font-size: 1.3em;
+    
+    color: blanchedalmond;
+
+    border: 0px;
+    background: unset;
+}
+
+#minutesPeriodLabelElmId {
+    color: blanchedalmond;
+    font-size: 1.3em;
+    padding-right: 20px;
+}
+
+#minutesPeriodRangeElmId{
+    width:220px;
+    
+}
+
+#minutesSectionId {
+    text-align: right;
+    padding:10px;
+}
+
+#onOffSectionElmId {
+    text-align: left;
+}
+
+#innerIconElmId{
+    width:25%;
+    max-width: 25%;
+    padding:0px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+#innerIconElmId > img {
+    width: 150px;
+    height: 120px;
+    float:right;
+}

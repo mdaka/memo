@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="he" dir="rtl">
+	<head>
+		<title>Memo</title>
+
+	</head>
+	<body>
+
+		<link rel="stylesheet" type="text/css" href="./css/control_panel.css">
+		<link rel="stylesheet" type="text/css" href="./css/spinner.css">
+		<link rel="stylesheet" type="text/css" href="./css/notifications.css">
+		
+		<div>
+			<!-- Inner Icon -->
+			
+			<div id="innerIconElmId">
+				<img src="./icons/inner_icon.png" alt="inner_icon">
+			</div>
+
+			<div id="headerNameElmId">
+				<h1>Memo Words</h1>
+			</div>
+			
+			
+			<div style="clear: both;"></div>
+		<div>
+		
+		<div id="spinnerLoaderElmId" class="spinner-wrap">
+			<div class="spinner">
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+				<i></i>
+			</div>
+		  
+		</div>
+
+
+		<section id="settingBodyElmId">
+
+			<div id="onOffSectionElmId">
+				<input type="button" id="onOffElmId" value="ON">
+			</div>
+			
+			<section id="minutesSectionId">
+				<label for="minutesPeriodRangeElmId" id="minutesPeriodLabelElmId"> התזכורת תופיע כל</label>
+				<input type="range" id="minutesPeriodRangeElmId" name="periodMinutes" min="5" max="240" 
+				oninput=""
+				onchange="periodHasChanged(this, this.value)">
+				<input type="text" readonly id="chosenPeriodMinutesElmId" value="דקות "><label></label>
+			</section>
+
+		</section>
+
+		<section id="notificationItemsElmId">
+			
+			<ul id="notificationItemsDataElmId"></ul>
+		</section>
+		
+		<!-- Bundle all js file into one file along with minimization-->
+		<script src="./js/control_panel.js"></script>
+		<script src="./js/items_handler.js"></script>
+		<script src="./js/timer_handler.js"></script>
+
+	</body>
+</html>

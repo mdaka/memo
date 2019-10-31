@@ -1,0 +1,49 @@
+{
+  "homepage": "./",
+  "name": "memo",
+  "author": "mdaka",
+  "description": "Reminder app via notifications bar",
+  "version": "1.0.0",
+  "private": false,
+  "main": "public/main.js",
+  "license": "AGPL",
+  "build": {
+    "appId": "com.chwarzmion.althakron",
+    "productName": "Memo",
+    "compression": "normal",
+    "directories": {
+      "buildResources": "."
+    },
+    "mac": {
+      "icon": "./assets/mac/icon.icns",
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "./assets/win/icon.ico"
+    },
+    "linux": {
+      "icon": "./assets/png/1024x1024.png",
+      "category": "Utility"
+    }
+  },
+  "dependencies": {
+    "electron-store": "3.2.0",
+    "node-notifier": "5.4.0"
+  },
+  "scripts": {
+    "electron": "electron .",
+    "mac": "electron-builder -m",
+    "win": "electron-builder -w",
+    "linux": "electron-builder -l",
+    "all": "electron-builder -mwl"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^4.2.4",
+    "electron-builder": "^20.43.0"
+  },
+  "keywords": [
+    "reminder",
+    "notifications"
+  ]
+}

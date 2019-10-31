@@ -1,0 +1,83 @@
+[
+    {
+        "id" : "#101",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "hoarder",
+            "מחסן"
+        ]
+    },
+    {
+        "id" : "#102",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "apex",
+            "קצה"
+        ]
+    },
+    {
+        "id" : "#103",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "audit",
+            "לִבדוֹק"
+        ]
+    },
+    {
+        "id" : "#104",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "stamina",
+            "סיבולת"
+        ]
+    },
+    {
+        "id" : "#105",
+        "show": true,
+        "isPicture": false,
+        "list": [
+             "prospects",
+             "תִקוָה"
+        ]
+    },
+    {
+        "id" : "#106",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "preempting",
+            "לְהַקְדִים"
+        ]
+    },
+    {
+        "id" : "#107",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "goldsmith",
+            "צורף"            
+        ]
+    },
+    {
+        "id" : "#108",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "Stupendous",
+            "מהמם"
+        ]
+    },
+    {
+        "id" : "#109",
+        "show": true,
+        "isPicture": false,
+        "list": [
+            "Orchestrating",
+            "תזמור"
+        ]
+    }
+]
