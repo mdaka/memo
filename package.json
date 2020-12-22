@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "electron-store": "3.2.0",
-    "node-notifier": "5.4.0"
+    "node-notifier": "8.0.1"
   },
   "scripts": {
     "electron": "electron .",
