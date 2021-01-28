@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "devtron": "^1.4.0",
-    "electron": "^4.2.4",
+    "electron": "^9.4.0",
     "electron-builder": "^20.43.0"
   },
   "keywords": [
